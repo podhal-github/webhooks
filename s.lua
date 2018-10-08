@@ -4,7 +4,7 @@ local webhooks = {
 	{"test", "github", "https://discordapp.com/api/webhooks/441712165905498113/KpY1fX1VZIzIYkP-xYAnYMr7LxM5RGRY5i_j1_rIxmwQcPm7yEHQEYC-6hiKYZjnXWlw"},
 }
 
-function webhook(message, user)
+function webhook(message)
 		for k, v in pairs(webhooks) do
 	
 	local options = {
